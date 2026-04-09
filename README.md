@@ -84,7 +84,7 @@ export GEMINI_API_KEY=...
 
 ## Running Experiments
 
-CRAFT uses a single CLI entry point for both API and local models.
+CRAFT uses a single CLI entry point for both API and local models. Full experimental dialog logs (CoT and public messages) and progress metrics from paper's experiments are provided in this [CRAFT Huggingface Dataset](https://huggingface.co/datasets/Abhijnan/craft-benchmark-lean)
 
 **Paper experiments** (oracle, no tools, 20 turns, all 20 structures, empty start):
 ```bash
